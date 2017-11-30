@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+
+body {
+  background: #262626;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+#fact {
+  display: none;
+}
+input#numberInput {
+  border-radius: 20px;
+  color: #262626;
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+input#numberInput:hover,
+input#numberInput:valid,
+input#numberInput:active {
+  border: 2px solid #673ab7;
+}
+.card {
+  background: rgba(103, 58, 183, 0.5);
+  box-shadow: 0 10px 15px rgba(0,0,0,0.5);
+}
+.card h1, h4, p {
+  color: #F8F7F9;
+}
+input#numberInput {
+  background: rgba(248, 247, 249, 0.8);
+}
+input[type]:focus {
+    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset, 0 0 8px rgba(0, 0, 0, 0.6);
+    outline:  none;
+}
