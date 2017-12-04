@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates|Ubuntu+Condensed');
 
 body {
-  background: #2c1861;
+  background: url("https://cdn.pixabay.com/photo/2017/09/10/18/25/question-2736480_960_720.jpg");
+  background-size: cover; 
   font-family: 'Montserrat Alternates', sans-serif;
   text-align: center;
 }
@@ -25,10 +26,10 @@ input#numberInput {
 input#numberInput:hover,
 input#numberInput:valid,
 input#numberInput:active {
-  border: 2px solid #673ab7;
+  border: 2px solid #fff;
 }
 .card {
-  background: rgba(98, 15, 245, 0.5);
+  background: rgba(0, 0, 0, 0.7);
   box-shadow: 0 10px 15px rgba(0,0,0,0.5);
 }
 .card h1, h4, p {
