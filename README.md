@@ -2,6 +2,8 @@
 
 <p>Simple vanilla JavaScript app, using that fetches random facts on any number entered. </p>
 
+Demo: https://gibon87.github.io/numberFactsApp/
+
 <h2>How to use: </h2>
 <ul>
   <li>Type the number </li>
